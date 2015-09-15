@@ -21,6 +21,3 @@ Material Design app with Floating Action Button and Sliding menu with the use of
 ###### 5. Navigation Drawer List item with use of RecyclerView
 
 ![Navigation Drawer Menu](https://github.com/ChiragSavsani/Material-Design-App/blob/master/src/main/res/screens/list_scrolling.gif)
-
-#### Developed By : 
-######![Chirag Savsani](https://plus.google.com/u/0/+ChiragSavsani/about)
