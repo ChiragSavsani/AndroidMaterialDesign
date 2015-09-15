@@ -9,9 +9,6 @@ import android.view.ViewGroup;
 
 import com.example.androidmaterialdesign.R;
 
-/**
- * Created by chirag.savsani on 9/4/2015.
- */
 public class OtherFragment extends Fragment {
     public OtherFragment() {
         // Required empty public constructor

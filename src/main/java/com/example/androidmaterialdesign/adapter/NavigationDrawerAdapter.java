@@ -1,9 +1,5 @@
 package com.example.androidmaterialdesign.adapter;
 
-/**
- * Created by Ravi on 29/07/15.
- */
-
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

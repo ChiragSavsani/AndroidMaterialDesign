@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.androidmaterialdesign.R;
 
-/**
- * Created by chirag.savsani on 9/4/2015.
- */
 public class LikesFragment extends Fragment {
 
     public LikesFragment() {

@@ -6,9 +6,6 @@ import android.support.v7.widget.Toolbar;
 
 import com.example.androidmaterialdesign.R;
 
-/**
- * Created by chirag.savsani on 8/21/2015.
- */
 public class InnerActivity extends ActionBarActivity {
 
 

@@ -16,9 +16,6 @@ import com.example.androidmaterialdesign.R;
 
 import java.util.ArrayList;
 
-/**
- * Created by chirag.savsani on 9/4/2015.
- */
 public class MessageFragment extends Fragment {
     ImageButton floatingActionButton;
     ListView homeListView;

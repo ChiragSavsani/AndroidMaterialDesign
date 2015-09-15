@@ -1,9 +1,5 @@
 package com.example.androidmaterialdesign.activity;
 
-/**
- * Created by Ravi on 29/07/15.
- */
-
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -39,7 +35,8 @@ public class FragmentDrawer extends Fragment {
     private static String[] titles = null;
     private FragmentDrawerListener drawerListener;
     RelativeLayout nav_header_container;
-
+	
+	// This is array of Images for drawer title image.
     int []images = {R.drawable.background_image1,R.drawable.background_image2,R.drawable.background_image3,R.drawable.background_image4,R.drawable.background_image5,
             R.drawable.background_image6,R.drawable.background_image7,R.drawable.background_image8,R.drawable.background_image9,R.drawable.background_image10};
     public FragmentDrawer() {
@@ -52,7 +49,7 @@ public class FragmentDrawer extends Fragment {
 
     public static List<NavDrawerItem> getData() {
         List<NavDrawerItem> data = new ArrayList<NavDrawerItem>();
-
+		// Set drawer item.
         data.add(new NavDrawerItem("Message", R.drawable.ic_action_email));
         data.add(new NavDrawerItem("Likes", R.drawable.ic_action_good));
         data.add(new NavDrawerItem("Games", R.drawable.ic_action_gamepad));
@@ -106,7 +103,7 @@ public class FragmentDrawer extends Fragment {
 
         return layout;
     }
-
+	// This method use for change drawer image randomly on first time app load.
     public int getRandom(){
         int rand = new Random().nextInt(images.length);
         return images[rand];
