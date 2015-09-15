@@ -44,11 +44,11 @@ public class MessageFragment extends Fragment {
             public void onClick(View v) {
                 Intent innerActivity = new Intent(getContext(),InnerActivity.class);
                 startActivity(innerActivity);
-                Toast.makeText(getContext(), "Clicked on Action Button.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), "Clicked on Floating Action Button.", Toast.LENGTH_LONG).show();
             }
         });
         for (int i = 0; i <= 15; i++) {
-            newArrayList.add("This is Message Fragment...!!!");
+            newArrayList.add("This is Message Fragment.........!!!!!!!");
         }
         ArrayAdapter adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, newArrayList);
         homeListView.setAdapter(adapter);
