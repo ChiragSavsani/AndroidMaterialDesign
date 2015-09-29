@@ -1,4 +1,4 @@
-# Material-Design-App
+# AndroidMaterialDesign
 Material Design app with Floating Action Button and Sliding menu with the use of RecyclerView.
 
 ####In this app following design concept is added : 
