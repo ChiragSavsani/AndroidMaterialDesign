@@ -16,7 +16,7 @@ Material Design app with Floating Action Button and Sliding menu with the use of
 
 ###### 4. FAB(Floating Action Button) click action 
 
-![Main Fragment](https://github.com/ChiragSavsani/AndroidMaterialDesign/blob/master/ui_screen_image/loating _action.png)
+![Main Fragment](https://github.com/ChiragSavsani/AndroidMaterialDesign/blob/master/ui_screen_image/floating _action.png)
 
 ###### 5. Toolbar as ActionBar click event
 
